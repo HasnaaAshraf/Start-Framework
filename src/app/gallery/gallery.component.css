@@ -1,0 +1,13 @@
+
+.allProducts{
+    padding-top: 8rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    background-color: antiquewhite;
+}
+
+.iphoneImg{
+    width: 270px;
+    object-fit: cover;
+    margin-left: -2rem;
+}

@@ -1,0 +1,42 @@
+
+/* About Section */
+  
+#about{
+    background-color: #1bb899; 
+    height: 95vh;
+    padding-top: 10rem; 
+}
+
+.h2About{
+    padding-top: 4rem;
+}
+
+.aboutText{
+    font-size: 1.1rem;
+    width: 78%;
+}
+
+.line1{
+    width: 80px;
+    height: 4px;
+    background-color: white;   
+}
+
+.line2{
+    width: 80px;
+    height: 4px;
+    background-color: white;  
+}
+
+@media (max-width:700px) {
+    #about{
+      height: 100vh;
+      padding-top:5rem;
+      padding-left: 20px;
+    }
+    .aboutText{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+}

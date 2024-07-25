@@ -1,0 +1,23 @@
+
+<div class="container-fluid">
+    <h2 class="recProducts fw-bolder "> Recommended Products : </h2>
+</div>
+
+    <div class="container">
+        <div class="row py-3 px-2">
+     @for (item of recommendedProducts; track $index) {
+    
+                <div class="col-md-3">
+                    <div class="shadow-lg p-1 rounded-3 mb-4 ">
+                        <img  [src]="item.pImg" class="w-100" alt="iphone">
+                        <h3 class="pt-3 ps-3">Name: {{item.pName}}</h3>
+                        <h4 class="pt-1 ps-3">Color : <span class=" fs-5">{{item.pColor}}</span></h4>
+                        <h4 class="pt-2 ps-3 pb-3">price : <span class="fst-italic">{{item.pPrice}}</span></h4> 
+                    </div>
+                </div>        
+     }@empty{
+        <h1>Sorry Data empty</h1>
+    }
+        </div>
+    </div>
+

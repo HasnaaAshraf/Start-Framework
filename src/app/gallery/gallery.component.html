@@ -1,0 +1,31 @@
+
+<div class="container-fluid">
+    <h2 class="allProducts fw-bolder ">All Products : </h2>
+</div>
+
+
+<div class="container gallery">
+    <div class="row py-3 px-2">
+ @for (item of productsList; track $index) {
+
+            <div class="col-md-3 ">
+                <div class="galleryItem shadow-lg p-4 rounded-3 mb-4 ">
+                    <div id="image"><img  [src]="item.pImg" class=" w-100" alt="iphone"></div>
+                    <h3 class="pt-3">Name: {{item.pName}}</h3>
+                    <h4 class="pt-1">Color : <span class=" fs-5">{{item.pColor}}</span></h4>
+                    <h4 class="pt-2">price : <span class="fst-italic">{{item.pPrice}}</span></h4> 
+                </div>
+            </div>        
+ }
+ @empty{
+    <h1>Sorry Data empty</h1>
+}
+    </div>
+</div>
+
+@defer (on viewport()) {
+    <app-recommended-product></app-recommended-product>
+}
+@placeholder {
+    <h3>Some Recommended Products</h3>
+}

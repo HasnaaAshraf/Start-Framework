@@ -1,0 +1,95 @@
+
+/* Portfolio Section */
+  
+.h2Portfolio{
+    color: #2C3E50;
+    padding-top: 8rem;
+    font-size: 2.8rem;
+}
+
+#portfolio .line1{
+   background-color: #2C3E50;
+}
+
+#portfolio .line2{
+    background-color: #2C3E50;
+ }
+
+ #portfolio .lineAndStar .fa-solid{
+    color: #2C3E50 !important;
+ }
+
+ .cardss img{
+    width: 360px;
+    border-radius: 10px !important;
+ }
+
+ .modal-dialog img{
+  width: 120% !important;
+  border-radius: 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-left: -5rem !important;
+  margin-top: 5rem !important;
+}
+
+.layer__{
+  font-size: 1.2rem;
+  background-color: #1EBC9C;
+  border-radius: 10px;
+  width: 101%;
+  height: 96%;
+  top: 6px;
+  left: -1.5px;
+  background-size: cover;
+  object-fit: cover;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.item:hover .layer__{
+  opacity: 0.9;
+}
+
+#portfolio i{
+color: white !important;
+}
+
+.specificItem button{
+  border: none !important;
+  outline: none !important;
+}
+
+.line1{
+    width: 80px;
+    height: 4px;
+    background-color: white;   
+}
+
+.line2{
+    width: 80px;
+    height: 4px;
+    background-color: white;  
+}
+
+@media (max-width:700px) {
+  
+  .h2Portfolio{
+      font-size: 2rem;
+  }
+  .cardss img{
+    width: 400px;
+    margin-left: 10px;
+  }
+  .myImg{
+    width: 600px;
+  }
+  .layer__{
+    width: 97%;
+    height: 96%;
+    top: 2%;
+    left: 3%;
+  }
+
+}

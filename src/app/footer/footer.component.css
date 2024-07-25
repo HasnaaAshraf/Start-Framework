@@ -1,0 +1,23 @@
+
+/* footer */
+  
+footer{
+    background-color:  #2C3E50;
+    padding: 5rem;
+  }
+  
+  .icon{
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 1.2rem;
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .pAbout{
+    font-size: 1.1rem;
+  }
+  .copyright{
+    background-color: #1A252F;
+  }
